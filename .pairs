@@ -1,0 +1,8 @@
+pairs:
+  rd: Ryan Durling
+  rs: Rodolfo Sanchez
+email:
+  prefix: pair
+  domain: pivotal.com
+  no_solo_prefix: true
+global: false

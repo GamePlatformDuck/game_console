@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 'whateverwewant'
+      MYSQL_DATABASE: 'game_console'
+      MYSQL_USER: 'game_consoler'
+      MYSQL_PASSWORD: 'game123console'
+    ports:
+     - "3306:3306"
