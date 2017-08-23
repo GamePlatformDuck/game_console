@@ -1,0 +1,5 @@
+---
+applications:
+- name: game_console
+  memory: 512M
+  buildpack: git://github.com/heroku/heroku-buildpack-clojure.git
